@@ -1,0 +1,29 @@
+// bidon.idl : type library source for bidon.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (bidon.tlb).
+
+[ uuid(07D39F18-1F5F-48C0-B427-CE46FDD366A1), version(1.0) ]
+library bidon
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primary dispatch interface for CbidonDoc
+	
+	[ uuid(BC85D92D-DAE4-4968-96B3-7ECABF49E664) ]
+	dispinterface Ibidon
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  Class information for CbidonDoc
+	
+	[ uuid(02280D38-59FB-4BDD-9876-EF5D9E35770F) ]
+	coclass bidon
+	{
+		[default] dispinterface Ibidon;
+	};
+};

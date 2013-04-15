@@ -1,0 +1,14 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+HKEY_CLASSES_ROOT\bidon.Application = bidon Application
+HKEY_CLASSES_ROOT\bidon.Application\CLSID = {02280D38-59FB-4BDD-9876-EF5D9E35770F}
+
+HKEY_CLASSES_ROOT\CLSID\{02280D38-59FB-4BDD-9876-EF5D9E35770F} = bidon Application
+HKEY_CLASSES_ROOT\CLSID\{02280D38-59FB-4BDD-9876-EF5D9E35770F}\ProgId = bidon.Application
+
+
+HKEY_CLASSES_ROOT\CLSID\{02280D38-59FB-4BDD-9876-EF5D9E35770F}\LocalServer32 = bidon.EXE
