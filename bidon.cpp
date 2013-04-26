@@ -1,5 +1,5 @@
 // bidon.cpp : Defines the class behaviors for the application.
-//
+// 
 
 #include "stdafx.h"
 #include "bidon.h"
